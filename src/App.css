@@ -1,0 +1,39 @@
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__header {
+  flex-grow: 1;
+  max-height: 264px;
+}
+
+.main__map {
+  flex-grow: 2;
+}
+
+.h-x2 {
+  height: 4px;
+}
+
+.h-x {
+  height: 8px;
+}
+
+.h-3x {
+  height: 24px;
+}
+
+.left {
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+.pointer {
+  cursor: pointer;
+}

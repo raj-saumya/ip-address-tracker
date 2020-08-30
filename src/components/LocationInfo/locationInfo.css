@@ -1,0 +1,36 @@
+.locationCard {
+  background: #fff;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0px 6px 16px -8px hsl(0, 0%, 59%);
+  display: flex;
+  width: calc(100vw * 0.7);
+  min-height: 108px;
+}
+
+.locationCard__section {
+  flex: 1;
+}
+
+.divider {
+  background: #96969659;
+  width: 1px;
+  height: 80%;
+  align-self: center;
+}
+
+.locationCard__division {
+  flex: 0.2;
+  display: flex;
+}
+
+.locationCard__subHead {
+  font-size: 12px;
+  font-weight: 500;
+  color: hsl(0, 0%, 72%);
+}
+
+.locationCard__head {
+  font-size: 24px;
+  font-weight: 500;
+}
